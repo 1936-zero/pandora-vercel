@@ -396,11 +396,11 @@
 					$h1.innerText = text
 				}
 			}
-			updateHeader('ChatGPT Vercel');
+			updateHeader('鬼的ChatGPT');
 			window.addEventListener('load', function() {
 				const submitBtn = document.querySelector('#submit-token');
 				submitBtn.addEventListener('click', function() {
-					const accessToken = prompt('Please input access token:');
+					const accessToken = prompt('请输入你的密钥:');
 					if (accessToken) {
 						fetch('login_token', {
 							method: 'POST',
