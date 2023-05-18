@@ -16,7 +16,7 @@ __version__ = '0.1.0'
 class ChatBot:
     build_id = '35uzIQibpwv56FyPcgmGz'
 
-    def __init__(self, proxy=None, debug=False, sentry=False):
+    def __init__(self, proxy=None, debug=False, sentry=true):
         self.proxy = proxy
         self.debug = debug
         self.sentry = sentry
