@@ -29,8 +29,8 @@
 							</header>
 							<div class="cd073cc55 c3057e255">
 								<div class="ulp-alternate-action  _alternate-action __s16nu9">
-									<p class="cb21c50a9 cba0941cc cf12e064e">没有账号?<a class="c34934055 c2dd6083e" href="https://chat-shared1.zhile.io/shared.html"
-										 target="_blank">点击使用共享账号</a></p>
+									<p class="cb21c50a9 cba0941cc cf12e064e">沒有账号?<a class="c34934055 c2dd6083e" href="https://chat-shared1.zhile.io/shared.html"
+										 target="_blank">这里使用共享账号</a></p>
 								</div>
 								<div class="ulp-alternate-action  _alternate-action __s16nu9">
 									<p class="cb21c50a9 cba0941cc cf12e064e">需要获取你的密钥?<a class="c34934055 c2dd6083e" href="https://ai.fakeopen.com/auth"
@@ -396,11 +396,11 @@
 					$h1.innerText = text
 				}
 			}
-			updateHeader('鬼的ChatGPT');
+			updateHeader('ChatGPT Vercel');
 			window.addEventListener('load', function() {
 				const submitBtn = document.querySelector('#submit-token');
 				submitBtn.addEventListener('click', function() {
-					const accessToken = prompt('请输入你的密钥:');
+					const accessToken = prompt('Please input access token:');
 					if (accessToken) {
 						fetch('login_token', {
 							method: 'POST',
